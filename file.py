@@ -8,6 +8,11 @@ comandos = {
     'git status': 'Exibe o estado atual do repositório, mostrando arquivos modificados, adicionados e não rastreados.',
     'git branch': 'Lista, cria ou exclui branches.',
     'git checkout <branch>': 'Muda para a branch especificada.',
+    'git remote': 'Gerencia repositórios remotos.',
+    'git reset --hard <commit>': 'Reverte o repositório para um estado anterior, apagando completamente todas as mudanças posteriores.',
+    'git revert <commit>': 'Cria um novo commit que desfaz as mudanças introduzidas por um commit específico.',
+    'git commit --amend -m "<mensagem>"': 'Modifica o último commit, permitindo alterar a mensagem ou adicionar arquivos.',
+    'git log': 'Exibe o histórico de commits do repositório.',
 }
 print('========COMANDOS GITHUB========')
 for comando, descricao in comandos.items():
